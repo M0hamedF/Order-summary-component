@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    font-size: 0.625em;
+    --pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 330px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* Section1 */
+.summary h1 {
+    font-weight: 900;
+    margin: 25px 0 10px 0;
+}
+
+.image-hero img {
+    width: 330px;
+    border-radius: 20px 20px 0 0;
+}
+
+.summary {
+    padding: 0 45px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.summary p {
+    font-size: 14px;
+    line-height: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+/* Section2 */
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 0 35px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 45px;
+    align-items: center;
+}
+
+.plan-sub {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.plan img {
+    height: 40px;
+}
+
+.plan-details {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.plan-details p {
+    font-weight: 900;
+}
+
+.plan-details span {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan a {
+    font-size: 12px;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+    transition: 0.3s;
+}
+
+.plan a:hover {
+    color: hsl(245, 75%, 52%, 0.7);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+/* Payment */
+.payment {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: hsl(245, 75%, 52%, 0.7);
+    transition: 0.3s;
+}
+
+.payment a {
+    display: block;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+.payment a:hover {
+    color: hsl(223, 47%, 23%);
+    transition: 0.3s;
+}
+/* Attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(232, 95%, 15%);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.attribution a:hover{
+    color: hsl(232, 95%, 15%, 0.7);
+    transition: 0.3s;
+}
