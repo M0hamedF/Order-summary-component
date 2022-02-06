@@ -17,7 +17,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-![Order-summary-component](images/screenshot.png)
+![Order-summary-component](images/Screenshot.png)
 
 ### Links
 - Solution URL: (https://github.com/M0hamedF/Order-summary-component)
